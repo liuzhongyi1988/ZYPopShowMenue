@@ -1,0 +1,6 @@
+framework module ZYPopShowMenue {
+  umbrella header "ZYPopShowMenue-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZYPopShowMenue_Example' do
+  pod 'ZYPopShowMenue', :path => '../'
+
+  target 'ZYPopShowMenue_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

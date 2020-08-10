@@ -1,0 +1,16 @@
+PODS:
+  - ZYPopShowMenue (0.1.0)
+
+DEPENDENCIES:
+  - ZYPopShowMenue (from `../`)
+
+EXTERNAL SOURCES:
+  ZYPopShowMenue:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZYPopShowMenue: ae99ff9ef542fc28a4e23fef12a3c6b489d4cde2
+
+PODFILE CHECKSUM: 9a3180e538fe0f47e98b776a139fc908ff58ef28
+
+COCOAPODS: 1.9.1
