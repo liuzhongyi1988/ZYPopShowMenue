@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZYPopShowMenue'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary      = "类似微博主页、简书主页等效果。多页面嵌套，既可以上下滑动，也可以左右滑动切换页面。"
   s.homepage         = 'https://github.com/liuzhongyi1988/ZYPopShowMenue'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
