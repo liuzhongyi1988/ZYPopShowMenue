@@ -1,6 +1,0 @@
-framework module Pods_ZYPopShowMenue_Tests {
-  umbrella header "Pods-ZYPopShowMenue_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -8,33 +8,17 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZYPopShowMenue'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ZYPopShowMenue.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = "TODO: Add long description of the pod here."
-
+  s.version          = '1.0.5'
+  s.summary      = "类似微博主页、简书主页等效果。多页面嵌套，既可以上下滑动，也可以左右滑动切换页面。"
   s.homepage         = 'https://github.com/liuzhongyi1988/ZYPopShowMenue'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'liuzhongyi1988' => '864248774.qq.com' }
-  s.source           = { :git => 'https://github.com/liuzhongyi1988/ZYPopShowMenue.git', :tag => s.version.to_s }
+  s.author           = { 'liuzhongyi1988' => '864248774@qq.com' }
+  s.source           = { :git => 'https://github.com/liuzhongyi1988/ZYPopShowMenue.git', :tag => "#{s.version}" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-
+  s.swift_versions = ["4.2", "5.0"]
   s.source_files = 'ZYPopShowMenue/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'ZYPopShowMenue' => ['ZYPopShowMenue/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
